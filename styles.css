@@ -1,0 +1,41 @@
+.heading {
+    text-align: center;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+.image-container img {
+    object-fit: contain;
+    width: 600px;
+    height: 400px; 
+}
+
+section {
+    display: block;
+}
+
+.recipe-list header {
+    text-align: center;
+}
+
+.recipe-list.list a {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;   
+}
+
+.recipe-container {
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+figcaption {
+    text-align: center;
+}
