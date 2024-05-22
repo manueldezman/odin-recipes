@@ -44,4 +44,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    background-color: antiquewhite;
+  }
+  h1, h3 {
+    color: brown;
   }
