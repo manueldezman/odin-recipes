@@ -3,12 +3,7 @@
 }
 
 .image-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 400px;
     margin-bottom: 20px;
-   
 }
 .image-container img {
     object-fit: contain;
@@ -22,6 +17,12 @@ section {
     display: block;
 }
 
+.image-container, .recipe-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+}
 .recipe-list header {
     text-align: center;
 }
@@ -32,12 +33,7 @@ section {
  cursor: pointer;   
 }
 
-.recipe-container {
-    width: 600px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto; 
-}
+
 figcaption {
     text-align: center;
 }

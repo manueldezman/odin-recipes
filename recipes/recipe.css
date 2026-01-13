@@ -5,17 +5,15 @@
     width: 100%;
 }
 .image-wrapper {
-    width: 600px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
     overflow: hidden;
     border-radius: 10%;
     
 }
-.image-wrapper img {
+.image-wrapper, .image-wrapper img {
     width: 600px;
     height: 400px;
+}
+.image-wrapper img {
     object-fit: contain;
 }
 .image-caption {
@@ -23,6 +21,10 @@
 }
 .description, .ingredients, .steps {
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description, .ingredients, .steps, .image-wrapper {
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,7 +36,7 @@ body {
     font-style: normal;
     background-color: antiquewhite;
   }
-  h1, h3 {
+  h1, h3, a:hover {
     color: brown
   }
 
@@ -49,7 +51,6 @@ body {
   }
 
   .steps > div > a:hover {
-    color: brown;
     font-weight: bold;
   }
     
