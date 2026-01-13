@@ -8,12 +8,14 @@
     width: 600px;
     height: 400px;
     margin-bottom: 20px;
-    background-color: blue;
+   
 }
 .image-container img {
     object-fit: contain;
     width: 600px;
-    height: 400px; 
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden; 
 }
 
 section {
