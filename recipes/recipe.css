@@ -37,3 +37,19 @@ body {
   h1, h3 {
     color: brown
   }
+
+  .steps > div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .steps > div > a, a:link, a:focus, a:active {
+    color: black;
+    text-decoration: none;
+  }
+
+  .steps > div > a:hover {
+    color: brown;
+    font-weight: bold;
+  }
+    
